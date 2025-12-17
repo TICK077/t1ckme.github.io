@@ -1,0 +1,146 @@
+# 创作内容
+
+学习如何使用 Markdown 在 Doks 中创作内容，使用 frontmatter 自定义页面，添加图像、标题、代码块等等。
+
+## Markdown
+
+Doks 支持完整的 [Markdown](https://daringfireball.net/projects/markdown/) `.md` 语法，以及使用 [YAML](https://yaml.org/spec/1.2.2/), [TOML](https://toml.io/en/), 或 [JSON](https://www.json.org/json-en.html) 等 frontmatter来定义标题和描述等元数据。
+
+## 前言
+
+您可以通过在 Doks 的 frontmatter 中设置值来自定义各个页面。frontmatter 设置在文件顶部 `---` 分隔符之间：
+
+```md {title="content/docs/example.md"}
+---
+title: My page title
+---
+
+Page content follows the second `---`.
+```
+
+每个页面必须至少包含一个 `<head>` 标签 `title`. 请参阅 [frontmatter 参考文档](/docs/reference/frontmatter/) 了解所有可用字段以及如何添加自定义字段。
+
+
+## 内联样式
+
+文本可以是 **粗体**, _斜体_, or ~~删除线~~。
+
+```md
+文本可以是 **粗体**, _斜体_, or ~~删除线~~。
+```
+
+您可以 [链接到另一个页面](/docs/description/description-解释/)。
+
+```md
+您可以 [链接到另一个页面](/docs/description/description-解释/)。
+```
+
+您可以 `inline code` 使用反引号进行高亮显示。
+
+```md
+您可以 `inline code` 使用反引号进行高亮显示。
+```
+
+## 图片
+
+{{< callout context="note" icon="outline/info-circle" >}}
+Doks 中的图像使用了 [Thulite 的图像集成](https://images.thulite.io/)。
+{{< /callout >}}
+
+Thulite Images 支持[Markdown 语法来显示图像](https://www.markdownguide.org/basic-syntax/#images-1)其中包含屏幕阅读器和辅助技术的替代文本。
+
+![lalala](20251114132155.png)
+
+```md
+![lalala](20251114132155.png)
+```
+
+## 标题
+
+您可以使用标题来组织内容。在 Markdown 中，标题由行首的`#`数量表示。
+
+### 如何在 Doks 中构建页面内容
+
+Doks 已配置为自动使用页面标题作为顶级标题。我们建议每个页面以常规段落文本内容开头，并使用页面内标题进行区分 `<h2>` :
+
+```md
+---
+title: Markdown 指南
+description: 如何在 Doks 中使用 Markdown
+---
+
+本页面介绍如何在 Doks 中使用 Markdown。
+
+## 内联样式
+
+## 标题
+```
+
+### 自动航向锚链接
+
+在 Markdown 中使用标题会自动生成锚链接，这样您就可以直接链接到页面的特定部分：
+
+```md
+---
+title: 我的内容页面
+description: 如何使用 Doks 的内置锚链接
+---
+
+## 引言
+
+我可以链接到本页下方的[结论](#结论) .
+
+## 结论
+
+`https://t1ck.ing/` 直接跳转到我的首页
+```
+
+二级标题（`<h2>`）和三级标题（`<h3>`） 将自动出现在页面目录——“本页内容”部分。
+
+## 引用块
+
+> 这是一个引用块，通常用于引用他人或文档的内容。
+>
+> 引用块以每行开头的一个 `>` 表示。
+
+```md
+> 这是一个引用块，通常用于引用他人或文档的内容。
+>
+> 引用块以每行开头的一个 `>` 表示。
+```
+
+## 代码块
+
+代码块用开头和结尾各三个反引号 ` ``` ` 表示。你可以在开头的反引号后面指定所使用的编程语言。
+
+```go
+// 带有语法高亮显示的 Go 代码。
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, World!")
+}
+```
+
+````md
+```go
+// 带有语法高亮显示的 Go 代码。
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, World!")
+}
+```
+````
+
+{{< callout context="note" title="扩展代码格式化" icon="outline/info-circle" >}}
+需要更高级的代码格式化功能？请参阅我们的 [代码块指南](/docs/built-ins/code-blocks/)。
+{{< /callout >}}
+
+## 其他常见的 Markdown 特性
+
+Doks 支持所有其他 Markdown 语法，例如列表和表格。有关所有 Markdown 语法元素的快速概述，请参阅[Markdown 基本语法](/docs/reference/markdown-basic-syntax/) 和 [Markdown 扩展语法](/docs/reference/markdown-extended-syntax/) 。
