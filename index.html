@@ -83,13 +83,26 @@ html, body {
   <header>
   
   
-  
 
   
+  
   <div
-    style="position:relative; background-image: url('https://t1ck.me/images/th.jpg'); background-size:cover; background-position:center;">
-    <div class="bg-black-60"
-      style="display:flex; flex-direction:column; min-height:350px; padding:0.5rem 2rem 2rem 2rem;">
+    style="
+      position:relative;
+      
+      background-image:url('https://t1ck.me/images/th.jpg');
+      background-size:cover;
+      background-position:center;
+      
+    ">
+    <div
+      class="bg-black-60"
+      style="
+        min-height:350px;
+        padding:1rem 1.5rem 2rem;
+        display:flex;
+        flex-direction:column;
+      ">
 
       
       <nav class="pv3 ph3 ph4-ns" role="navigation">
@@ -202,60 +215,102 @@ html, body {
 
       
       <div
-        style="display:flex; justify-content:center; align-items:flex-start; flex-wrap:wrap; max-width:1000px; margin:2rem auto; gap:3rem;">
+        style="
+          flex:1;
+          display:flex;
+          justify-content:center;
+          align-items:center;
+        ">
 
+        
         <div
-          style="display:flex; justify-content:center; align-items:flex-start; flex-wrap:wrap; max-width:1200px; margin:2rem auto;">
+          style="
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+            align-items:center;
+            gap:3rem;
+            max-width:1000px;
+            width:100%;
+            text-align:center;
+          ">
 
           
           <div
-            style="width:400px; display:flex; flex-direction:column; align-items:center; text-align:center; color:#fff; margin-right:50px;">
-            <img src="/images/avatar.png"
-              style="width:180px; height:180px; object-fit:cover; border-radius:50%; margin-bottom:0.6rem;"
-              alt="avatar">
-            <h1 style="margin-bottom:0.4rem;">TICK077</h1>
-            <p class="lead mb-3">Boring person</p>
-            <span class="spoiler">Ridicule me. Envy me. Loathe me.</span>
-            
+            style="
+              max-width:400px;
+              width:100%;
+              display:flex;
+              flex-direction:column;
+              align-items:center;
+              color:#fff;
+            ">
+            <img
+              src="/images/avatar.png"
+              alt="avatar"
+              style="
+                width:180px;
+                height:180px;
+                border-radius:50%;
+                object-fit:cover;
+                margin-bottom:0.6rem;
+              ">
+            <h1 style="margin:0.4rem 0;">TICK077</h1>
+            <p class="lead" style="margin:0.3rem 0;">Boring person</p>
+            <span class="spoiler" style="margin-top:0.3rem;">
+              Ridicule me. Envy me. Loathe me.
+            </span>
           </div>
 
           
           <div
-            style="width:400px; display:flex; flex-direction:column; align-items:center; text-align:center; color:#fff;">
+            style="
+              max-width:400px;
+              width:100%;
+              display:flex;
+              flex-direction:column;
+              align-items:center;
+              color:#fff;
+            ">
             <h2 style="margin-bottom:0.5rem;">你好呀~</h2>
             <p>这里是我的生活博客</p>
             <p>分享我的生活中遇到的趣事~</p>
             <p>该网站使用 Hugo & Ananke 构建</p>
             <p>并托管于 GitHub Pages</p>
-            <p>我的技术博客: <a href="https://t1ck.ing" target="_blank"
-                style="color:#fff; text-decoration:underline;">t1ck.ing</a></p>
+            <p>
+              我的技术博客：
+              <a
+                href="https://t1ck.ing"
+                target="_blank"
+                style="color:#fff; text-decoration:underline;">
+                t1ck.ing
+              </a>
+            </p>
           </div>
 
         </div>
-
       </div>
     </div>
+  </div>
 
-    
+  
 
-
-    <style>
-      .spoiler {
-        background-color: #000000;
-        color: #000000;
-         
-        border-radius: 4px;
-        padding: 2px 6px;
-        cursor: pointer;
-        transition: color 0.3s;
-      }
-
-      .spoiler:hover {
-        color: #fff;
-         
-      }
-    </style>
+  
+  <style>
+    .spoiler {
+      background:#000;
+      color:#000;
+      border-radius:4px;
+      padding:2px 6px;
+      cursor:pointer;
+      transition:color 0.3s;
+    }
+    .spoiler:hover {
+      color:#fff;
+    }
+  </style>
 </header>
+
 
   
   <main role="main" style="flex:1; display:flex; flex-direction:column;">
