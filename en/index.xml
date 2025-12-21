@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>TICK077</title>
+    <title>TICKME on TICK077</title>
     <link>https://t1ck.me/en/</link>
-    <description>Recent content on TICK077</description>
+    <description>Recent content in TICKME on TICK077</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 16 Dec 2025 21:56:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 21 Dec 2025 20:28:08 +0800</lastBuildDate>
     <atom:link href="https://t1ck.me/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About / 关于我</title>
+      <link>https://t1ck.me/en/about/about/</link>
+      <pubDate>Sun, 21 Dec 2025 20:28:08 +0800</pubDate>
+      <guid>https://t1ck.me/en/about/about/</guid>
+      <description>&lt;p&gt;你好呀，很高兴可以在这里见到你~&lt;br&gt;&#xA;这里是关于我的一些信息，你可以快速的了解我喔~&lt;br&gt;&#xA;&lt;span class=&#34;spoiler&#34;&gt;其实大部分可能都是吐槽&lt;/span&gt;&lt;br&gt;&#xA;&lt;span class=&#34;spoiler&#34;&gt;还有就是，我基本在网络上已经处于半裸奔状态了，所以盒武器对我不太奏效&amp;hellip;&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact Me / 联系我</title>
+      <link>https://t1ck.me/en/contact/</link>
+      <pubDate>Tue, 16 Dec 2025 21:56:00 +0800</pubDate>
+      <guid>https://t1ck.me/en/contact/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Email:&lt;/strong&gt; &lt;a href=&#34;mailto:i@t1ck.me&#34;&gt;i@t1ck.me&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Email:&lt;/strong&gt; &lt;a href=&#34;mailto:t1ckfx077@gmail.com&#34;&gt;t1ckfx077@gmail.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href=&#34;https://github.com/T1cK077&#34;&gt;TICK&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Discord:&lt;/strong&gt;&#xA;&lt;a href=&#34;javascript:void(0)&#34; onclick=&#34;copyText(&#39;t1ck077&#39;)&#34; style=&#34;cursor:pointer;&#34;&gt;&#xA;t1ck077(click to copy)&#xA;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;script&gt;&#xA;function copyText(text) {&#xA;  navigator.clipboard.writeText(text).then(() =&gt; {&#xA;  });&#xA;}&#xA;&lt;/script&gt;</description>
+    </item>
     <item>
       <title>Privacy Policy / 隐私政策</title>
       <link>https://t1ck.me/en/privacy-policy/</link>
@@ -20,21 +34,7 @@
       <link>https://t1ck.me/en/music/</link>
       <pubDate>Tue, 16 Dec 2025 21:56:00 +0800</pubDate>
       <guid>https://t1ck.me/en/music/</guid>
-      <description>&lt;h1 id=&#34;spotify&#34;&gt;Spotify&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://open.spotify.com/playlist/1XVXwpbLixefKJoYNEABWH?si=5800e156f205423b&#34;&gt;Pop&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://open.spotify.com/playlist/6DFtQIVKp7NtYRejCaNCIN?si=805549c6ef5c49ec&#34;&gt;C-Pop&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://open.spotify.com/playlist/5c95APDEef4g3BEfOCAaSr?si=0044a28b05244152&#34;&gt;J-Pop&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://open.spotify.com/playlist/7jbsdbHWLQWRGJxDRMr6MM?si=b25cab3008dc47ca&#34;&gt;Hip-Hop&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://open.spotify.com/playlist/33ujZ8M0oOauQOjWKTT5rS?si=81e6c2a7c79c4240&#34;&gt;House&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;qq-music&#34;&gt;QQ Music&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://c6.y.qq.com/base/fcgi-bin/u?__=LoAhMBqkZ3oz&#34;&gt;Pop&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://c6.y.qq.com/base/fcgi-bin/u?__=7yYovnlJJoMg&#34;&gt;C-Pop&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://c6.y.qq.com/base/fcgi-bin/u?__=vnhgk1MXZubi&#34;&gt;J-Pop&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://c6.y.qq.com/base/fcgi-bin/u?__=uDzhrdMXZC28&#34;&gt;Hip-Hop&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://c6.y.qq.com/base/fcgi-bin/u?__=ycGficMXZNwy&#34;&gt;Instrumental&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;have fun~&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>https://t1ck.me/en/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://t1ck.me/en/about/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Contact</title>
-      <link>https://t1ck.me/en/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://t1ck.me/en/contact/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Email:&lt;/strong&gt; &lt;a href=&#34;mailto:i@t1ck.me&#34;&gt;i@t1ck.me&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Email:&lt;/strong&gt; &lt;a href=&#34;mailto:t1ckfx077@gmail.com&#34;&gt;t1ckfx077@gmail.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href=&#34;https://github.com/T1cK077&#34;&gt;TICK&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Discord:&lt;/strong&gt; t1ck077&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;div style=&#34;display:flex; width:100%; gap:2rem;&#34;&gt;&#xA;  &lt;div style=&#34;&#xA;    flex:1;&#xA;    display:flex;&#xA;    flex-direction:column;&#xA;    align-items:center;&#xA;    justify-content:center;&#xA;    text-align:center;&#xA;  &#34;&gt;&#xA;    &lt;h2&gt;Spotify&lt;/h2&gt;&#xA;    &lt;a href=&#34;https://open.spotify.com/playlist/1XVXwpbLixefKJoYNEABWH?si=5800e156f205423b&#34; target=&#34;_blank&#34;&gt;Pop&lt;/a&gt;&#xA;    &lt;a href=&#34;https://open.spotify.com/playlist/6DFtQIVKp7NtYRejCaNCIN?si=805549c6ef5c49ec&#34; target=&#34;_blank&#34;&gt;C-Pop&lt;/a&gt;&#xA;    &lt;a href=&#34;https://open.spotify.com/playlist/5c95APDEef4g3BEfOCAaSr?si=0044a28b05244152&#34; target=&#34;_blank&#34;&gt;J-Pop&lt;/a&gt;&#xA;    &lt;a href=&#34;https://open.spotify.com/playlist/7jbsdbHWLQWRGJxDRMr6MM?si=b25cab3008dc47ca&#34; target=&#34;_blank&#34;&gt;Hip-Pop&lt;/a&gt;&#xA;    &lt;a href=&#34;https://open.spotify.com/playlist/33ujZ8M0oOauQOjWKTT5rS?si=81e6c2a7c79c4240&#34; target=&#34;_blank&#34;&gt;House&lt;/a&gt;&#xA;    &lt;br&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div style=&#34;&#xA;    flex:1;&#xA;    display:flex;&#xA;    flex-direction:column;&#xA;    align-items:center;&#xA;    justify-content:center;&#xA;    text-align:center;&#xA;  &#34;&gt;&#xA;    &lt;h3&gt;QQ Music&lt;/h3&gt;&#xA;    &lt;a href=&#34;https://c6.y.qq.com/base/fcgi-bin/u?__=LoAhMBqkZ3oz&#34; target=&#34;_blank&#34;&gt;Pop&lt;/a&gt;&#xA;    &lt;a href=&#34;https://c6.y.qq.com/base/fcgi-bin/u?__=7yYovnlJJoMg&#34; target=&#34;_blank&#34;&gt;C-Pop&lt;/a&gt;&#xA;    &lt;a href=&#34;https://c6.y.qq.com/base/fcgi-bin/u?__=vnhgk1MXZubi&#34; target=&#34;_blank&#34;&gt;J-Pop&lt;/a&gt;&#xA;    &lt;a href=&#34;https://c6.y.qq.com/base/fcgi-bin/u?__=uDzhrdMXZC28&#34; target=&#34;_blank&#34;&gt;Hip-Pop&lt;/a&gt;&#xA;    &lt;a href=&#34;https://c6.y.qq.com/base/fcgi-bin/u?__=ycGficMXZNwy&#34; target=&#34;_blank&#34;&gt;Instrumental&lt;/a&gt;&#xA;    &lt;br&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;have fun~</description>
     </item>
   </channel>
 </rss>
